@@ -1,11 +1,15 @@
-# 🎬 Stream Player (Ad-Free Streamtape Player)
+# 🎬 Stream Player (Expo + Expo Video)
 
-A simple and lightweight stream player that allows you to paste a Streamtape link and instantly play the video — **without ads**.
+A simple and lightweight **stream video player** built using **Expo** and **Expo Video**, designed to quickly play videos from direct streamtape URLs.
 
 ---
 
 ## 🚀 Features
 
+* 📺 Smooth video playback using `expo-video`
+* ⚡ Fast and minimal UI
+* 🔗 Play videos directly from a URL
+* 📱 Built with Expo for cross-platform support (iOS & Android)
 - ▶️ Paste-and-play Streamtape links
 - 🚫 Ad-free video playback experience
 - ⚡ Fast and minimal interface
@@ -13,29 +17,68 @@ A simple and lightweight stream player that allows you to paste a Streamtape lin
 
 ---
 
-## 📌 How It Works
+## 🛠️ Tech Stack
 
-This player extracts the direct video stream from a Streamtape link and renders it using a custom video player.
+* **Expo**
+* **Expo Video (`expo-video`)**
+* **React Native**
 
-The core logic used in this project is based on the amazing work by:
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd stream-player
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the Expo server:
+
+```bash
+npx expo start
+```
+
+---
+
+## ▶️ Usage
+
+1. Run the app on your device/emulator.
+2. Insert a valid **stream tape video URL**.
+3. Tap **Play** and enjoy the video 🎉
+
+---
+
+## 🧠 Core Logic
+
+The core functionality of this app is inspired by:
 
 👉 https://github.com/ChristopherProject/Streamtape-Video-Downloader
 
----
-
-## 🛠️ Usage
-
-1. Copy a Streamtape video link  
-2. Paste it into the input field  
-3. Click **Play**  
-4. Enjoy the video without interruptions 🎉  
+Special thanks for the approach used to extract and handle streamable video URLs.
 
 ---
 
-## ⚙️ Installation
+## 📁 Project Structure
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-npm install
-npm start
+```
+stream-player/
+├── App.js
+├── components/
+│   └── VideoPlayer.js
+├── assets/
+├── package.json
+└── README.md
+```
+
+
+💡 Enjoy Streaming!
+
+Insert your URL, hit play, and enjoy seamless video streaming 🚀
