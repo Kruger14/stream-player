@@ -71,8 +71,6 @@ Special thanks for the approach used to extract and handle streamable video URLs
 ```
 stream-player/
 ├── App.js
-├── components/
-│   └── VideoPlayer.js
 ├── assets/
 ├── package.json
 └── README.md
